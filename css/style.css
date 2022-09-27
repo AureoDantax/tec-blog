@@ -2,7 +2,8 @@
 
 *{
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
+    text-decoration: none; 
 }
 
 
@@ -64,12 +65,12 @@ padding: 15px;
 
 /* formatsç~so do menu */
 
-a:link,a:visited{
+#container-cabeçalho a:link, #container-cabeçalho a:visited{
     color: #ffffff;
     padding: 8px 12px;
+    
 }
-
-a:hover{
+#container-cabeçalho a:hover{
     color: #ffa500; 
     background: #f5f1eb ;
     border: 1px solid  #f5f1eb;
@@ -77,12 +78,23 @@ a:hover{
 }
 
 
+
+
+
+
 /* formatação geral */
 
-a{
-    text-decoration: none;
-    padding: 10px;
+a:link, a:visited{
+    color: #ffa500;
 }
+
+a:hover{
+    color: #f5f1eb; 
+    background: #ffa500;
+    padding:3px;
+    border-radius: 15px;
+}
+
 
 h1{
     font-weight: bolder;
@@ -106,4 +118,8 @@ h1{
  .branco{
     color: #fff;
     background: gray;
+}
+
+p{
+    margin-bottom: 4px;
 }
