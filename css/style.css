@@ -8,7 +8,7 @@
 
 
 body{
-    background-color: #f5f1eb;
+    background-color: #f3dcb8;
     font-family: "Trebuchet MS", Helvetica,sans-serif;
     /* equivale a 16 pxels */
     font-size: 1em;
@@ -45,10 +45,16 @@ body{
 
 #lateral{
     width: 240px;
-    background: #fff;
     float: right;
  
 }
+
+.imagem-lateral{
+    border: 1px hidden;
+    border-radius: 10px;
+    width: 220px;
+}
+
  #rodape{
 background: #CCC;
 clear: both;
@@ -63,7 +69,18 @@ padding: 15px;
     margin-bottom: 20px;
 }
 
-/* formatsç~so do menu */
+.conteudo-lateral{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #0a6cecd0;
+}
+
+/* formatação do menu */
+
+#fundo-logo{
+    color: #fff;
+    background: gray;
+}
 
 #container-cabeçalho a:link, #container-cabeçalho a:visited{
     color: #ffffff;
@@ -77,7 +94,15 @@ padding: 15px;
     border-radius: 15px;
 }
 
+.conteudo-lateral h3{
+    transition: all 0.6s;
+    cursor: pointer;
+}
 
+.conteudo-lateral h3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px #ffa500);
+    filter: drop-shadow(15px 10px 5px #000000);
+}
 
 
 
@@ -114,10 +139,19 @@ h1{
     margin-bottom: 10px;
     
  }
+
+ h3{
+    padding: 5px;
+    color: #f5e06d;
+
+ }
  
- .branco{
-    color: #fff;
-    background: gray;
+.post-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+   
+
 }
 
 p{
